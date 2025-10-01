@@ -1,12 +1,37 @@
-# React + Vite
+# Portfolio | Aravindh Raj
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **React + Vite portfolio project**! This project showcases my skills in modern web development using React.js, Vite, Tailwind CSS, and other frontend technologies.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://AKAAravindh.github.io/Portfolio/](https://AKAAravindh.github.io/Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Built with **React.js** and **Vite** for fast development and HMR (Hot Module Replacement)  
+- Responsive and modern design using **Tailwind CSS**, **Bootstrap**, and **Material UI**  
+- Smooth navigation and animated UI interactions with **GSAP**  
+- Full **portfolio sections** including Home, About, Projects, Skills, Resume, and Contact  
+- Resume downloadable as PDF and viewable inline  
+- Hosted on **GitHub Pages** for free deployment  
+
+---
+
+## Development Setup
+
+### Official Vite Plugins
+
+- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react) – uses **Babel** for Fast Refresh  
+- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react-swc) – uses **SWC** for Fast Refresh
+
+### ESLint & Code Quality
+
+For production-level applications, we recommend using **TypeScript** with type-aware lint rules. You can check the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) and [`typescript-eslint`](https://typescript-eslint.io) for integration details.
+
+---
+
+## How to Run Locally
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/AKAAravindh/Portfolio.git
