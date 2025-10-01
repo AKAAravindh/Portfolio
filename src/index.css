@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.heroSocialLinks {
+  cursor: pointer;
+}
