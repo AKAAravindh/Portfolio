@@ -2,7 +2,9 @@ import React from "react";
 import { ArrowDownToLine } from "lucide-react"; // icon (optional)
 
 // Make sure you put your resume in `public/` folder (e.g., public/resume.pdf)
-const resumeFile = "/files/Aravindh_Raj_WebDeveloper_Resume.pdf.pdf";
+const resumeFile = `${
+  import.meta.env.BASE_URL
+}files/Aravindh_Raj_WebDeveloper_Resume.pdf.pdf`;
 
 export default function ResumePage() {
   return (
@@ -21,7 +23,7 @@ export default function ResumePage() {
       <div className="flex justify-center mb-10">
         <a
           href={resumeFile}
-          download="Aravindh_Raj_WebDeveloper_Resume.pdf.pdf"
+          download="Aravindh_Raj_WebDeveloper_Resume.pdf"
           className="flex items-center gap-2 bg-[#00ADB5] hover:bg-[#009CA3] px-6 py-3 rounded-md font-medium text-gray-950 transition-colors duration-300 shadow-lg hover:shadow-xl"
         >
           <ArrowDownToLine size={20} />
