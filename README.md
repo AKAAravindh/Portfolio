@@ -35,3 +35,5 @@ For production-level applications, we recommend using **TypeScript** with type-a
 1. Clone the repository:  
 ```bash
 git clone https://github.com/AKAAravindh/Portfolio.git
+
+
